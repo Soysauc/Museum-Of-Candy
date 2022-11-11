@@ -44,6 +44,16 @@ body {
 .content {
   margin-bottom: 100px;
 }
+
+.col-md-6 {
+  padding-right: 0;
+}
+
+.navbar.scrolled {
+  background: rgb(222, 192, 222);
+  transition: 0.5s ease-in;
+}
+
 @media (max-width: 1200px) {
   #headingGroup h1 {
     font-weight: 100;
